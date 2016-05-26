@@ -1,0 +1,12 @@
+digraph Tree {
+node [shape=box] ;
+0 [label="Net primary production distribution$ <= 6159.0\ngini = 0.9986\nsamples = 19902\nvalue = [2, 2, 1 ..., 2, 2, 4]"] ;
+1 [label="Employment termination payments taxable component$ <= 2192.0\ngini = 0.9986\nsamples = 19736\nvalue = [2, 2, 1 ..., 2, 2, 4]"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="gini = 0.9987\nsamples = 19574\nvalue = [2, 2, 1 ..., 2, 2, 4]"] ;
+1 -> 2 ;
+3 [label="gini = 0.0\nsamples = 162\nvalue = [0, 0, 0 ..., 0, 0, 0]"] ;
+1 -> 3 ;
+4 [label="gini = 0.0\nsamples = 166\nvalue = [0, 0, 0 ..., 0, 0, 0]"] ;
+0 -> 4 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
